@@ -100,7 +100,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <div style={styles.footer}>
-        Built with AI • AetherWrite
+        Built by Shoaib Khan • AetherWrite powered by AI
       </div>
     </div>
   );
