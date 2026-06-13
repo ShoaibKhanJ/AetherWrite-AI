@@ -16,7 +16,7 @@ export default function Home() {
     setEssay("");
 
     try {
-      const res = await axios.post("http://127.0.0.1:8000/generate", {
+      const res = await axios.post("https://aetherwrite-ai-production.up.railway.app/generate", {
         topic,
         length,
         tone,
